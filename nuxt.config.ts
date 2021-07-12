@@ -4,7 +4,8 @@ const config: NuxtConfig = {
   build: {},
   buildModules: [
     '@nuxtjs/composition-api/module',
-    '@nuxt/typescript-build'
+    '@nuxt/typescript-build',
+    'nuxt-windicss',
   ],
   css: [],
   env: {},
@@ -18,7 +19,30 @@ const config: NuxtConfig = {
     link: []
   },
   loading: { color: '#0c64c1' },
-  modules: [],
+  modules: [
+    [
+      'nuxt-tailvue',
+      {
+        toast: {
+          defaults: {
+            containerClasses: [
+              'z-[500]',
+              'fixed',
+              'inset-0',
+              'flex',
+              'top-0',
+              'px-4',
+              'py-6',
+              'pointer-events-none',
+              'sm:p-6',
+              'sm:items-end',
+              'sm:justify-end',
+            ],
+          },
+        },
+      },
+    ],
+  ],
   plugins: [
     '~/plugins/truncate'
   ]

@@ -5,7 +5,8 @@
   "private": true,
   "dependencies": {
     "@nuxtjs/composition-api": "0.24.6",
-    "nuxt": "2.15.7"
+    "nuxt": "2.15.7",
+    "nuxt-tailvue": "^1.0.91"
   },
   "scripts": {
     "dev": "nuxt",
@@ -18,6 +19,7 @@
     "@nuxt/types": "2.15.7",
     "@nuxt/typescript-build": "2.1.0",
     "@nuxtjs/eslint-config-typescript": "6.0.1",
-    "eslint": "7.30.0"
+    "eslint": "7.30.0",
+    "nuxt-windicss": "^1.1.3"
   }
 }

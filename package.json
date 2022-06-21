@@ -77,7 +77,7 @@
     "@storybook/addon-measure": "1.2.2",
     "@storybook/addon-notes": "5.3.21",
     "@types/canvas-confetti": "1.4.0",
-    "@types/fibers": "3.1.0",
+    "@types/fibers": "3.1.1",
     "@types/tailwindcss": "2.2.0",
     "@types/vue-clickaway": "2.2.0",
     "@typescript-eslint/parser": "4.28.0",

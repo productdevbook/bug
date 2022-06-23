@@ -88,7 +88,7 @@
     "eslint-plugin-nuxt": "2.0.0",
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-tailwindcss": "1.13.4",
-    "fibers": "5.0.0",
+    "fibers": "5.0.1",
     "nuxt-use-motion": "1.5.1",
     "nuxt-viewport": "0.0.6",
     "nuxt-windicss": "^1.1.3",
